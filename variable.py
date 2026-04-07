@@ -1,15 +1,15 @@
 # # #  
-# name="shivam"
-# age=23
-# print("my name is=",name,"and age is=",age)
-# num1=123
-# num2=9823
-# sum=num1+num2
-# print("sum of 2 number is",sum)
-# let_a=None
-# print(type(name))
-# print(type(age))
-# print(type(let_a))
+name="shivam"
+age=23
+print("my name is=",name,"and age is=",age)
+num1=123
+num2=9823
+sum=num1+num2
+print("sum of 2 number is",sum)
+let_a=None
+print(type(name))
+print(type(age))
+print(type(let_a))
 
 # a=8 #it is integer
 # b="6"# it is string
