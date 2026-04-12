@@ -1,15 +1,15 @@
 # # #  
-name="shivam"
-age=23
-print("my name is=",name,"and age is=",age)
-num1=123
-num2=9823
-sum=num1+num2
-print("sum of 2 number is",sum)
-let_a=None
-print(type(name))
-print(type(age))
-print(type(let_a))
+# name="shivam"
+# age=23
+# print("my name is=",name,"and age is=",age)
+# num1=123
+# num2=9823
+# sum=num1+num2
+# print("sum of 2 number is",sum)
+# let_a=None
+# print(type(name))
+# print(type(age))
+# print(type(let_a))
 
 # a=8 #it is integer
 # b="6"# it is string
@@ -164,50 +164,50 @@ print(type(let_a))
 # Hint: Use input(). converting to .lower() helps match cases like "rock" vs "Rock"
 # user_choice = input("Enter Rock, Paper, or Scissors: ")
 
-import random  # Import the random module
+# import random  # Import the random module
 
-# 1. The List of options
-options = ["Rock", "Paper", "Scissors"]
+# # 1. The List of options
+# options = ["Rock", "Paper", "Scissors"]
 
-# Get the user's choice
-user_choice = input("Enter Rock, Paper, or Scissors: ").strip().capitalize()
+# # Get the user's choice
+# user_choice = input("Enter Rock, Paper, or Scissors: ").strip().capitalize()
 
-# 2. The Computer chooses randomly! (The magic line)
-computer_choice = random.choice(options) 
+# # 2. The Computer chooses randomly! (The magic line)
+# computer_choice = random.choice(options) 
 
-print("Computer chose:", computer_choice)
+# print("Computer chose:", computer_choice)
 
 # Now, your logic below makes perfect sense because 
 # we genuinely don't know what the computer picked!
 
 # 3. The Logic: Who wins?
-# Scenario 1: It's a Tie
-if user_choice == computer_choice:
-    print("It's a tie!")
+# # Scenario 1: It's a Tie
+# if user_choice == computer_choice:
+#     print("It's a tie!")
 
-# Scenario 2: User chose Rock
-elif user_choice == "Rock":
-    if computer_choice == "Scissors":
-        print("You Win! Rock smashes Scissors.")
-    else:
-        print("You Lose! Paper covers Rock.")
+# # Scenario 2: User chose Rock
+# elif user_choice == "Rock":
+#     if computer_choice == "Scissors":
+#         print("You Win! Rock smashes Scissors.")
+#     else:
+#         print("You Lose! Paper covers Rock.")
 
-# Scenario 3: User chose Paper
-elif user_choice == "Paper":
-    if computer_choice == "Scissors":
-        print("You loss! Scissors cut the paper.")
-    else:
-        print("You Win! Rock break the Scissors")
+# # Scenario 3: User chose Paper
+# elif user_choice == "Paper":
+#     if computer_choice == "Scissors":
+#         print("You loss! Scissors cut the paper.")
+#     else:
+#         print("You Win! Rock break the Scissors")
         
 
 
-# Scenario 4: User chose Scissors
-elif user_choice == "Scissors":
-    if computer_choice == "Rock":
-        print("You Loss! Rock breaks the Scissors.")
-    else:
-        print("You Win!Scissors cut teh paper.")  
-    pass
+# # Scenario 4: User chose Scissors
+# elif user_choice == "Scissors":
+#     if computer_choice == "Rock":
+#         print("You Loss! Rock breaks the Scissors.")
+#     else:
+#         print("You Win!Scissors cut teh paper.")  
+#     pass
 
-else:
-    print("Invalid input! Please check your spelling.") 
+# else:
+#     print("Invalid input! Please check your spelling.") 

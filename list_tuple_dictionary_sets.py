@@ -490,22 +490,22 @@ print(list_marks)
 #     print("highest mark is",marks_4,"and the student name is",name_4)  
    
 
-dict={
-    name_1:marks_1,
-    name_2:marks_2,
-    name_3:marks_3,
-    name_4:marks_4,  
-}
-print(dict)
+# dict={
+#     name_1:marks_1,
+#     name_2:marks_2,
+#     name_3:marks_3,
+#     name_4:marks_4,  
+# }
+# print(dict)
 
 
-if(marks_1>marks_2)and(marks_1>marks_3)and(marks_1>marks_4):
-    print("highest mark is",marks_1,"and the student name is",name_1)
-elif(marks_2>marks_1)and(marks_2>marks_3)and(marks_2>marks_4):
-    print("highest mark is",marks_2,"and the student name is",name_2)
-elif(marks_3>marks_1)and(marks_3>marks_2)and(marks_3>marks_4):
-    print("highest mark is",marks_3,"and the student name is",name_3)    
-else:
-    print("highest mark is",marks_4,"and the student name is",name_4)  
+# if(marks_1>marks_2)and(marks_1>marks_3)and(marks_1>marks_4):
+#     print("highest mark is",marks_1,"and the student name is",name_1)
+# elif(marks_2>marks_1)and(marks_2>marks_3)and(marks_2>marks_4):
+#     print("highest mark is",marks_2,"and the student name is",name_2)
+# elif(marks_3>marks_1)and(marks_3>marks_2)and(marks_3>marks_4):
+#     print("highest mark is",marks_3,"and the student name is",name_3)    
+# else:
+#     print("highest mark is",marks_4,"and the student name is",name_4)  
    
 
