@@ -259,12 +259,39 @@ but only print numbers that are divisible by 5."""
 Use a while loop to keep asking the user to enter the password. 
 If they get it wrong, say "Try again." If they get it right, say "Access Granted" and break the loop."""        
   
-secret_password="shivam123"
-user_input=input("enter the secret password=")
-while True:
-    if(user_input==secret_password):
-        print("YOU GOT THE CORRECT PASSWORD!! Access Granted")
-        break
-    else:
-        user_input=input("TRY AGAIN=")
+# secret_password="shivam123"
+# user_input=input("enter the secret password=")
+# while True:
+#     if(user_input==secret_password):
+#         print("YOU GOT THE CORRECT PASSWORD!! Access Granted")
+#         break   
+#     else:
+#         user_input=input("TRY AGAIN=")
         
+"""Pattern Printing: Use nested loops to print the following pattern based on a number $n$ (if $n=4$):
+Plaintext
+*
+**
+***
+****"""
+# number=int(input("enter the number for which we have to create plain star text="))
+# i = 1
+# while i <= number:
+#     print("*" * i)
+#     i += 1
+# # now same pattern with the inverted 
+# number=int(input("enter the number for which we have to create inverted plain star text="))
+# i=number
+# while i >= 1:
+#     print("*"*i)
+#     i-=1
+ 
+
+
+"""Prime Number Checker: Take a number input from the user and 
+determine if it is a Prime Number (a number divisible only by 1 and itself) using a loop."""
+# n=int(input("enter the number you want to check if it is a prime number or not="))
+# if(n%n==0 and n%1==0):
+#     print("it is a prime number")
+# else:
+#     print("it is not a prime number")    
