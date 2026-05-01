@@ -1,0 +1,17 @@
+Add-Content progress_log.txt "Lists practice"
+git add .
+$env:GIT_AUTHOR_DATE="2026-05-01 18:30:00"
+$env:GIT_COMMITTER_DATE="2026-05-01 18:30:00"
+git commit -m "Practice list operations"
+
+Add-Content progress_log.txt "Dictionary practice"
+git add .
+$env:GIT_AUTHOR_DATE="2026-05-04 19:00:00"
+$env:GIT_COMMITTER_DATE="2026-05-04 19:00:00"
+git commit -m "Add dictionary exercises"
+
+Add-Content progress_log.txt "Functions practice"
+git add .
+$env:GIT_AUTHOR_DATE="2026-05-08 20:15:00"
+$env:GIT_COMMITTER_DATE="2026-05-08 20:15:00"
+git commit -m "Practice Python functions"Lists practice
