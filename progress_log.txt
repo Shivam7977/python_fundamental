@@ -16,3 +16,4 @@ $env:GIT_AUTHOR_DATE="2026-05-08 20:15:00"
 $env:GIT_COMMITTER_DATE="2026-05-08 20:15:00"
 git commit -m "Practice Python functions"Lists practice
 Dictionary practice
+Functions practice
