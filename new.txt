@@ -1,0 +1,35 @@
+Add-Content progress_log.txt "Functions practice"
+git add .
+$env:GIT_AUTHOR_DATE="2026-05-12 18:40:00"
+$env:GIT_COMMITTER_DATE="2026-05-12 18:40:00"
+git commit -m "Practice Python functions"
+
+Add-Content progress_log.txt "OOP basics"
+git add .
+$env:GIT_AUTHOR_DATE="2026-05-16 19:10:00"
+$env:GIT_COMMITTER_DATE="2026-05-16 19:10:00"
+git commit -m "Add OOP basics examples"
+
+Add-Content progress_log.txt "Exception handling"
+git add .
+$env:GIT_AUTHOR_DATE="2026-05-20 20:05:00"
+$env:GIT_COMMITTER_DATE="2026-05-20 20:05:00"
+git commit -m "Practice exception handling"
+
+Add-Content progress_log.txt "File handling"
+git add .
+$env:GIT_AUTHOR_DATE="2026-05-25 18:55:00"
+$env:GIT_COMMITTER_DATE="2026-05-25 18:55:00"
+git commit -m "Add file handling examples"
+
+Add-Content progress_log.txt "Mini project"
+git add .
+$env:GIT_AUTHOR_DATE="2026-05-31 21:00:00"
+$env:GIT_COMMITTER_DATE="2026-05-31 21:00:00"
+git commit -m "Create Python mini project"
+
+Add-Content progress_log.txt "Project cleanup"
+git add .
+$env:GIT_AUTHOR_DATE="2026-06-02 19:30:00"
+$env:GIT_COMMITTER_DATE="2026-06-02 19:30:00"
+git commit -m "Project cleanup and refactoring"
