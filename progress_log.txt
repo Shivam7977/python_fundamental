@@ -1,2 +1,3 @@
 Functions practice
 OOP basics
+Exception handling
