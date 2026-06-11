@@ -88,14 +88,88 @@
 
 # Take a sentence as input and print how many vowels (a, e, i, o, u) are in it. Use string methods you've learned.
 
-string=input("enter the sentence=").lower()
-count_a=string.count("a")
-count_e=string.count("e")
-count_i=string.count("i")
-count_o=string.count("o")
-count_u=string.count("u")
-print("the number of a in string",count_a)
-print("the number of e in string",count_e)
-print("the number of i in string",count_i)
-print("the number of o in string",count_o)
-print("the number of u in string",count_u)
+# string=input("enter the sentence=").lower()
+# count_a=string.count("a")
+# count_e=string.count("e")
+# count_i=string.count("i")
+# count_o=string.count("o")
+# count_u=string.count("u")
+# print("the number of a in string",count_a)
+# print("the number of e in string",count_e)
+# print("the number of i in string",count_i)
+# print("the number of o in string",count_o)
+# print("the number of u in string",count_u)
+
+# wap to ask the user to enter the name of their three fav movie..
+# movie=[]
+# name_1=input("enter the  name of the movie_1:")
+# name_2=input("enter the  name of the movie_2:")
+# name_3=input("enter the  name of the movie_3:")
+# movie.append(name_1)
+# movie.append(name_2)
+# movie.append(name_3)
+# print(movie)
+# print(type(movie))
+
+# check the given list is palindrome or not... taking list as a input
+# phele jo list banaya tha wahi use kar liya...
+# movie=[]
+# name_1=input("enter the  name of the movie_1:")
+# name_2=input("enter the  name of the movie_2:")
+# name_3=input("enter the  name of the movie_3:")
+# movie.append(name_1)
+# movie.append(name_2)
+# movie.append(name_3)
+# print(movie)
+# copy_movie=movie.copy()
+# copy_movie.reverse()
+# if copy_movie==movie:
+#     print("it's palindrome")
+# else:
+#     print("it's not a palindrome")    
+    
+# wap to count the number of student's with the "A" grade in the following tuple    
+# list=["A","A","B","C","D","F","A","D","A"]
+# count_A=list.count("A")
+# print(count_A)
+
+"""wap to enter to enter marks of 3 subjects from the user and store them in a dictionary start with an 
+empty dictionary and add one by one use subject name as a key and marks as a value.."""
+# dict_marks={}
+# marks_1=float(input("enter the marks of 1st sub:"))
+# marks_2=float(input("enter the marks of 2nd sub:"))
+# marks_3=float(input("enter the marks of 3rd sub:"))
+# dict_marks.update({"sub1":marks_1})
+# dict_marks.update({"sub2":marks_2})
+# dict_marks.update({"sub3":marks_3})
+# print(dict_marks)
+
+"""Create a dictionary storing your own details — name, age, city, 
+and a list of your 3 hobbies. Print each value using its key."""
+# dict={
+#     "name":"shivam",
+#     "age":"21",
+#     "city":"mumbai",
+#     "list_hobby":{
+#         "hobby1":"sports",
+#         "hobby2":"watching TV",
+#         "hobby3":"coding" 
+#     }
+    
+# }
+# print(dict.get("name"))
+# print(dict.get("age"))
+# print(dict.get("city"))
+# print(dict.get("list_hobby"))
+# print(dict)
+
+
+# """You are given this list [4, 2, 7, 1, 9, 3] — sort it in ascending order, then reverse it, 
+# then remove the last element using .pop(). Print the list after each step."""
+# list=[4, 2, 7, 1, 9, 3]
+# list.sort()
+# print(list)
+# list.sort(reverse=True)
+# print(list)
+# list.reverse()
+# print(list)

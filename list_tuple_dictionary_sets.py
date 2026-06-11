@@ -14,7 +14,7 @@
 # print(len(marks))
 
 # list methods...
-# list = [2,1,3]
+list = [2,1,3]
 # list.append(4) #adds one element at end
 # print(list)
 
@@ -117,7 +117,7 @@
 
 # Dictionary ansd sets
 
-# dictionaries are used to store data value in key:value pairs ,, they are unordered , mutable i.e changeable , we can also add the new key value pair..
+# # dictionaries are used to store data value in key:value pairs ,, they are unordered , mutable i.e changeable , we can also add the new key value pair..
 # dict={
 #     "name":"shivam",
 #     "cgpa":"9.14",
@@ -129,6 +129,7 @@
 # print(dict["marks"])
 # print(dict)
 # dict["name"]="pandey"
+# dict["surname"]="hello" # we add new key value pair...
 # print(dict)
 
 # we can also create a null/empty dictionary.
@@ -380,49 +381,49 @@ Store them in a dictionary with subject names as keys.
 Then print the total marks and check if the student passed (passing marks = 40 per subject).
 Print "Pass" or "Fail" accordingly."""
 
-# # dict={}
-# # name=input("enter your name=")
-# # subject_1=int(input("enter the marks of 1st subject outoff 100="))
-# # subject_2=int(input("enter the marks of 2nd subject outoff 100="))
-# # subject_3=int(input("enter the marks of 3rd subject outoff 100="))
-# # subject_4=int(input("enter the marks of 4th subject outoff 100="))
-# # dict.update({"name":name})
-# # dict.update({"subject_1":subject_1})
-# # dict.update({"subject_2":subject_2})
-# # dict.update({"subject_3":subject_3})
-# # dict.update({"subject_4":subject_4})
-# # print(dict)
-# # total_marks=subject_1+subject_2+subject_3+subject_1
-# # percent=(total_marks/400)*100
-# # if(percent>=40):
-# #     print("the student is pass")
-# # else:
-# #     print("the student is fail.")    
+# dict={}
+# name=input("enter your name=")
+# subject_1=int(input("enter the marks of 1st subject outoff 100="))
+# subject_2=int(input("enter the marks of 2nd subject outoff 100="))
+# subject_3=int(input("enter the marks of 3rd subject outoff 100="))
+# subject_4=int(input("enter the marks of 4th subject outoff 100="))
+# dict.update({"name":name})
+# dict.update({"subject_1":subject_1})
+# dict.update({"subject_2":subject_2})
+# dict.update({"subject_3":subject_3})
+# dict.update({"subject_4":subject_4})
+# print(dict)
+# total_marks=subject_1+subject_2+subject_3+subject_1
+# percent=(total_marks/400)*100
+# if(percent>=40):
+#     print("the student is pass")
+# else:
+#     print("the student is fail.")    
     
 # """Create a dictionary of 5 items in a shop with item name as key and price as value. 
 # Take an item name as input from the user and print its price using .get().
 # If item is not found, print "Item not available"."""    
 
-# dict_shop={
-#     "apple":190,
-#     "banana":60,
-#     "dal":250,
-#     "chawal":90,
-#     "atta":80,
-# }
-# item=input("enter the product you want=").lower()
-# if(item=="apple"):
-#     print("the price of the apple is ",dict_shop.get("apple"))
-# elif(item=="banana"):
-#     print("the price of the banana is ",dict_shop.get("banana"))
-# elif(item=="dal"):
-#     print("the price of the dal is ",dict_shop.get("dal"))   
-# elif(item=="chawal"):
-#     print("the price of the chawal is ",dict_shop.get("chawal")) 
-# elif(item=="atta"):
-#     print("the price of the atta is ",dict_shop.get("atta"))   
-# else:
-#     print("Item not available")         
+dict_shop={
+    "apple":190,
+    "banana":60,
+    "dal":250,
+    "chawal":90,
+    "atta":80,
+}
+item=input("enter the product you want=").lower()
+if(item=="apple"):
+    print("the price of the apple is ",dict_shop.get("apple"))
+elif(item=="banana"):
+    print("the price of the banana is ",dict_shop.get("banana"))
+elif(item=="dal"):
+    print("the price of the dal is ",dict_shop.get("dal"))   
+elif(item=="chawal"):
+    print("the price of the chawal is ",dict_shop.get("chawal")) 
+elif(item=="atta"):
+    print("the price of the atta is ",dict_shop.get("atta"))   
+else:
+    print("Item not available")         
     
     
     
@@ -458,27 +459,27 @@ Build a dictionary pairing each student with their marks.
 Finally print the name of the student with the highest mark — 
 without using any built-in max() function, use list indexing and if-elif logic only."""
 
-list_name=[]
-name_1=(input("enter you name_1="))
-name_2=(input("enter you name_2="))
-name_3=(input("enter you name_3="))
-name_4=(input("enter you name_4="))
-list_name.append(name_1)
-list_name.append(name_2)
-list_name.append(name_3)
-list_name.append(name_4)
-print(list_name)
+# list_name=[]
+# name_1=(input("enter you name_1="))
+# name_2=(input("enter you name_2="))
+# name_3=(input("enter you name_3="))
+# name_4=(input("enter you name_4="))
+# list_name.append(name_1)
+# list_name.append(name_2)
+# list_name.append(name_3)
+# list_name.append(name_4)
+# print(list_name)
 
-list_marks=[]
-marks_1=(input("enter you marks_1="))
-marks_2=(input("enter you marks_2="))
-marks_3=(input("enter you marks_3="))
-marks_4=(input("enter you marks_4="))
-list_marks.append(marks_1)
-list_marks.append(marks_2)
-list_marks.append(marks_3)
-list_marks.append(marks_4)
-print(list_marks)
+# list_marks=[]
+# marks_1=(input("enter you marks_1="))
+# marks_2=(input("enter you marks_2="))
+# marks_3=(input("enter you marks_3="))
+# marks_4=(input("enter you marks_4="))
+# list_marks.append(marks_1)
+# list_marks.append(marks_2)
+# list_marks.append(marks_3)
+# list_marks.append(marks_4)
+# print(list_marks)
 
 # if(marks_1>marks_2)and(marks_1>marks_3)and(marks_1>marks_4):
 #     print("highest mark is",marks_1,"and the student name is",name_1)
