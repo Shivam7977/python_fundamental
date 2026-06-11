@@ -27,7 +27,7 @@
 # answer=2*string
 # print(answer)
 
-# # 2nd string and string can operate with +
+# 2nd string and string can operate with +
 # A,B="2",3
 # text="@"
 # print((A+text)*B)
@@ -103,7 +103,7 @@
 # # Assignment operator (=,+=,-=,*=,/=,%=,**=)
 
 # num=10
-# num+=10
+# num+=10 #num=num+10
 # print(num)
 
 # num=10
@@ -123,7 +123,7 @@
 # print(num)
 
 # num=10
-# num**=10
+# num **= 2
 # print(num)
 
 # # logical operator (not, and , or)   (or, and work on 2 operand) (not work on singel operand)
@@ -132,7 +132,7 @@
 # # answer=(not True) and False or True
 # # print(answer)
 
-# #Type casting
+#Type casting
 
 # a,b=1,"2"
 # c=int(b)
@@ -195,16 +195,16 @@
 
 # # indexing in string.... the indexing starts form 0. (we can read character and word in string but cannot replace character.)
 
-# str="shivam_pandey"
-# ch=str[2]
-# print(ch)
+str="shivam_pandey"
+ch=str[2]
+print(ch)
 
 
-# # slicing in string syntax == str[starting_idx:ending_idx]  in these slicing last idx is not included..
+# # slicing in string syntax === str[starting_idx:ending_idx]  in these slicing last idx is not included..
 
-# str="Apna_college"
-# hello=str[0:4]
-# print(hello)
+str="Apna_college"
+hello=str[0:4]
+print(hello)
 
 
 # # function in string

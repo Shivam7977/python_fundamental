@@ -117,3 +117,18 @@ def vowel_Counter(string):
     print("the number of vowel in the string is",count)
     
 vowel_Counter("shivam_rajesh_pandey_i_want_to_become_ai_engineer")    
+
+"""The Max Finder: WAF that takes a list of numbers and prints the largest number in the list.
+(Try doing this without using the built-in max() function—use a loop!)."""
+
+numbers = [10, 45, 23, 67, 12, 89, 34]
+
+
+max_num = numbers[0]
+
+for num in numbers:
+    if num > max_num:
+        max_num = num
+
+
+print("Maximum number is:", max_num)

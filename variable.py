@@ -35,8 +35,8 @@
 # print("sum=",num1+num2)
 
 # # some logical question.
-# hello=not True and False or True
-# print(hello)
+hello=not True and False or True
+print(hello)
 
 # some if-else question.
 # voting senerio
@@ -118,11 +118,11 @@
 # else:
 #     print("check your user_name and password")
 
-# validate the triangle is correct or not
-# Try_A=float(input("enter the angle A="))
-# Try_B=float(input("enter the angle B="))
-# Try_C=float(input("enter the angle C="))
-# if(Try_A+Try_B+Try_C==180):
+# # validate the triangle is correct or not
+# Tri_A=float(input("enter the angle A="))
+# Tri_B=float(input("enter the angle B="))
+# Tri_C=float(input("enter the angle C="))
+# if(Tri_A+Tri_B+Tri_C==180):
 #     print("the triangle is valid")
 # else:
 #     print("the triangle is invalid")    
@@ -166,21 +166,21 @@
 
 # import random  # Import the random module
 
-# # 1. The List of options
+# # # 1. The List of options
 # options = ["Rock", "Paper", "Scissors"]
 
 # # Get the user's choice
-# user_choice = input("Enter Rock, Paper, or Scissors: ").strip().capitalize()
+# user_choice = input("Enter Rock, Paper, or Scissors: ").lower()
 
 # # 2. The Computer chooses randomly! (The magic line)
 # computer_choice = random.choice(options) 
 
-# print("Computer chose:", computer_choice)
+# print("Computer choose:", computer_choice)
 
-# Now, your logic below makes perfect sense because 
-# we genuinely don't know what the computer picked!
+# # Now, your logic below makes perfect sense because 
+# # we genuinely don't know what the computer picked!
 
-# 3. The Logic: Who wins?
+# # 3. The Logic: Who wins?
 # # Scenario 1: It's a Tie
 # if user_choice == computer_choice:
 #     print("It's a tie!")
