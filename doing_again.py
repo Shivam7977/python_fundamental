@@ -173,3 +173,85 @@ and a list of your 3 hobbies. Print each value using its key."""
 # print(list)
 # list.reverse()
 # print(list)
+
+# hello word 5 times
+# i=0
+# while i<=5:
+#     print("hello world")
+#     i+=1
+    
+    
+    # print 1 to 100
+    
+# i=1
+# while i<=100:
+#     print(i)
+#     i+=1
+    
+# # print 100 to 1
+
+# i=100
+# while i>=1:
+#     print(i)   
+#     i-=1
+
+# multiplication table
+# n=int(input("enter the number for which u have to print table="))
+# i=1
+# while i<=10:
+#     print(i*n)
+#     i+=1
+
+#  given list = [1,4,9,16,25,36,49,64,81,100] print using loop..
+# nums=[1,4,9,16,25,36,49,64,81,100]
+# idx=0
+# while idx<len(nums):
+#     print(nums[idx])
+#     idx+=1
+    
+# search the number x give it's index , take x as input from the user
+# nums=[1,4,9,16,25,36,49,64,81,100]
+# nums=[1,4,9,16,25,36,49,64,81,100]
+# x=int(input("enter the number from the list which you have to find=")) 
+
+# idx=0
+# while idx<len(nums):
+#     if(nums[idx]==x):
+#         print("yes found the",x,"at the index",idx)
+#         break
+#     idx+=1
+        
+# else:  # yaha else while ka hai , if ka nhi hai.
+#     print(x,"not found")   
+#     idx+=1    
+    
+# print only odd number between 1 to 100
+# idx=1
+# while idx<=100:
+#     if (idx%2==0):
+#         idx+=1
+#         continue
+#     print(idx)
+#     idx+=1
+    
+    
+    # For loop
+# list=[1,2,3,5,55,5,5,8522,85652,5821]
+# for element in list:
+#     print(element)
+
+# # WAP to find the sum of first "n" natural number:
+# n=int(input("enter the numer till which you have to find sum="))
+# fact=1  
+# for i in range(1,n+1,1):
+#     fact *= i
+# print(fact)      
+
+n = int(input("Enter the number: "))
+
+fact = 1
+
+for i in range(1, n + 1):
+    fact *= i
+
+print(fact)

@@ -82,7 +82,7 @@
 #     print(i)   
 #     i+=1 
 
-# print all the odd nums from 1 to 10 
+# print all the odd nums from 1 to 100
 
 # i=1
 # while i<=100:
