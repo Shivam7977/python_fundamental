@@ -259,7 +259,72 @@ and a list of your 3 hobbies. Print each value using its key."""
 # A,B="2","3"
 # print(A+B)
 
-name = "Shivam"
-age = 21
+# name = "Shivam"
+# age = 21
 
-print(name, age)
+# print(name, age)
+
+"""
+1.Take a number as input and print whether it's even or odd.
+2.Swap two variables without using a third variable.
+3.Print all numbers from 1 to 50 that are divisible by 3 or 5 (not both).
+4.Take a string input and print it reversed.
+5.Write a function that takes *args and returns their sum."""
+
+# 1
+# num=float(input("enter the number u have to check odd or even="))
+# if num%2==0:
+#     print("even")
+# else:
+#     print("odd")    
+
+# 2.
+# var1,var2="shivam","pandey"
+# print(var1)
+# print(var2)
+# var1,var2="pandey","shivam"
+# print(var1)
+# print(var2)
+
+# # 3.Print all numbers from 1 to 50 that are divisible by 3 or 5 (not both)
+# FizzBuzz (1 to 100: multiples of 3 → "Fizz", 5 → "Buzz", both → "FizzBuzz").
+i=0
+while i<=50:
+    if i%3==0 and i%5==0 :
+        print("FizzBuzz")
+    elif i%3==0:
+        print("fizz") 
+    elif i%5==0:
+        print("buzz") 
+    else:
+        print("skip")
+        
+    i+=1     
+    
+#4.Take a string input and print it reversed.
+# str=input("enter the string for which you have to find reverse=")  
+# str.reverse()
+# print(str)  
+
+# 5.Write a function that takes *args and returns their sum.
+# def cal_sum(a,b):
+#     sum=a+b
+#     print(sum)
+#     return a+b
+# cal_sum(9,8)
+
+# # 6. Print the multiplication table of a number entered by the user.
+# n=int(input("enter the number for which u have to find multiplication="))
+# i=1
+# while i<=10:
+#     print(i*n)
+#     i+=1
+    
+# #. Find the factorial of a number using a loop, then again using recursion.
+# n=int(input("enter the number for which u have to find factorial=")) 
+# i=1
+# fact=1
+# while i<=n:
+#     fact*=i
+#     i+=1
+# print(fact)    
