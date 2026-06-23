@@ -288,18 +288,18 @@ and a list of your 3 hobbies. Print each value using its key."""
 
 # # 3.Print all numbers from 1 to 50 that are divisible by 3 or 5 (not both)
 # FizzBuzz (1 to 100: multiples of 3 → "Fizz", 5 → "Buzz", both → "FizzBuzz").
-i=0
-while i<=50:
-    if i%3==0 and i%5==0 :
-        print("FizzBuzz")
-    elif i%3==0:
-        print("fizz") 
-    elif i%5==0:
-        print("buzz") 
-    else:
-        print("skip")
+# i=0
+# while i<=50:
+#     if i%3==0 and i%5==0 :
+#         print("FizzBuzz")
+#     elif i%3==0:
+#         print("fizz") 
+#     elif i%5==0:
+#         print("buzz") 
+#     else:
+#         print("skip")
         
-    i+=1     
+#     i+=1     
     
 #4.Take a string input and print it reversed.
 # str=input("enter the string for which you have to find reverse=")  
@@ -328,3 +328,62 @@ while i<=50:
 #     fact*=i
 #     i+=1
 # print(fact)    
+
+# Loops & conditionals
+
+# 6. Print the multiplication table of a number entered by the user.
+
+# 7. Find the factorial of a number using a loop, then again using recursion.
+
+# 8. Check if a given string is a palindrome.
+
+# 9. Count the number of vowels in a sentence.
+
+# 10. Print a right-angled triangle pattern of stars for n rows.
+
+# 6.
+
+# num=int(input("enter the number for which you have to calculate multiplication table="))
+# i=1
+# while i<=10:
+#     print(i*num)
+#     i+=1
+
+# 7
+# num=float(input("enter the number for which you have to calculate factorial="))
+# i=1
+# fact=1
+# while i<=num:
+#     fact*=i
+#     i+=1
+    
+# print(fact)    
+    
+# 8. Check if a given string is a palindrome.
+# str=input("enter the string for which you have to check palindrome=").lower()
+
+# k=str[len(str)-1::-1] #str[start:end:step]
+# print(k)
+# if k==str:
+#     print("it's palindrome")
+# else:
+#     print("not a palindrome")    
+    
+    
+#9. Count the number of vowels in a sentence. 
+
+# sentence=input("enter the sentence to count vowel=").lower()
+# num_a=sentence.count("a")
+# num_e=sentence.count("e")
+# num_i=sentence.count("i")
+# num_o=sentence.count("o")
+# num_u=sentence.count("u")
+# print("number of a in sentence is",num_a)
+# print("number of e in sentence is",num_e)
+# print("number of i in sentence is",num_i)
+# print("number of o in sentence is",num_o)
+# print("number of u in sentence is",num_u)
+# print("total number of volew in sentence is",num_a+num_e+num_i+num_o+num_u)
+
+# 10. Print a right-angled triangle pattern of stars for n rows.
+l 
